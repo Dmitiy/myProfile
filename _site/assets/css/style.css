@@ -1,0 +1,159 @@
+/* start modal window style */
+#myModal .modal-dialog {
+	width: 100%;
+	margin-top: 6em;
+} 
+#myModal .modal-content {
+	background-color: transparent;
+}
+#myModal .modal-body {
+	padding: 4em 0;
+}
+
+/* modal profile */
+.my-profile {
+	width: 14em;
+	display: inline-block;
+	vertical-align: top;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	box-shadow: -1px 2px 3px #132e38;
+}
+.my-profile .account {
+	border-top: 1px solid #5288bb;
+	padding-top: 1.5em;
+	padding-bottom: .5em;
+	background: #3a78b2;
+	/* Old browsers */
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a78b2), color-stop(50%, #366daa), color-stop(50%, #366daa), color-stop(50%, #366daa), color-stop(100%, #315e9f));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #3a78b2 0%, #366daa 50%, #366daa 50%, #366daa 50%, #315e9f 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background: linear-gradient(to bottom, #3a78b2 0%, #366daa 50%, #366daa 50%, #366daa 50%, #315e9f 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3a78b2', endColorstr='#315e9f', GradientType=0);
+	/* IE6-9 */
+}
+
+.my-profile .account h3 + p,
+.my-profile .account figure > figcaption p {
+	font-size: .875em;
+	line-height: 2em;
+	color: #66ccff;
+}
+
+.my-profile .account h3 + p {
+	margin-bottom: 6px;
+}
+
+.my-profile .account figure img {
+	padding: 3px;
+	background-color: #365f75;
+	border: 3px solid #66ccff;
+	max-width: 100%;
+	width: 10em;
+	height: auto;
+}
+
+.my-profile .account figure figcaption {
+	margin-top: .8em;
+}
+.my-profile .account figure figcaption > a.fa:hover {
+	text-decoration: none;
+}
+.my-profile .account ~ div {
+	width: inherit;
+	border-top: 1px solid #436aa4;
+	padding: 1em 0;
+	background: #264b7f;
+	/* Old browsers */
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #264b7f), color-stop(50%, #26477d), color-stop(50%, #26477d), color-stop(100%, #25467b));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #264b7f 0%, #26477d 50%, #26477d 50%, #25467b 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background: linear-gradient(to bottom, #264b7f 0%, #26477d 50%, #26477d 50%, #25467b 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#264b7f', endColorstr='#25467b', GradientType=0);
+	/* IE6-9 */
+}
+/*personal skills*/
+.person .logo {
+	width: 16em;
+	height: auto;
+}
+
+@media (max-width: 1200px) {
+	.person .logo {
+		width: 10em;
+	}
+}
+@media (min-width: 480px) {
+	.person .logo {
+		width: 14em;
+	}
+}
+
+
+/* iPhone 4-6s */
+
+/* media 320 - 480 */
+@media (min-width: 320px) and (max-width: 480px) {
+	header h1 {
+		font-size: 2em;
+	}
+	.person .logo {
+		width: 20em;
+	}
+	.container h2 {
+		font-size: 1em;
+	}
+
+	#myModal .modal-dialog {
+		width: 100%;
+		margin: 0;
+	} 
+	#myModal .modal-content {
+		background-color: #264b7f;
+	}
+	#myModal .modal-body {
+		padding: 1.5em 0 2.5em 0;
+	}
+}
+/* media 320 - 568 */
+@media (min-width: 320px) and (max-width: 568px) {
+	/* start modal window style */
+	#myModal .modal-body {
+		padding: 2.5em 0 10.5em 0;
+	}
+}
+/* media 375 - 627 */
+@media (min-width: 375px) and (max-width: 627px) {
+	/* start modal window style */
+	#myModal .modal-body {
+		padding: 6.5em 0 13.5em 0;
+	}
+}
+/* media 414 - 736 */
+@media (min-width: 414px) and (max-width: 736px) {
+	/* start modal window style */
+	#myModal .modal-body {
+		padding: 8.5em 0 15.5em 0;
+	}
+}
+
+/* media 768 - 1024 ipad */
+@media (min-width: 768px) and (max-width: 1024px) {
+	/* start modal window style */
+	#myModal .modal-dialog {
+		margin-top: 0;
+	} 
+	#myModal .modal-body {
+		padding: 22em 0;
+	}
+}
+

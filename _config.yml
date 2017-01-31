@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# in the templates via {{ site.myvariable }}.
+title: Shkarlat Dmitriy
+email: shkarlat.dmitry@yandex.ru
+description: "about me, profile, resume"
+baseurl: "/myProfile" # the subpath of your site, e.g. /blog
+url: "https://dmitiy.github.io/myProfile/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
